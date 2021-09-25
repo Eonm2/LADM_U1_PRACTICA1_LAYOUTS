@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Focus /\nBreathe /\nRelax /\n..."
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04"
+        android:layout_gravity="right|top"
+        android:textSize="100dp"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inhale\nfrom your\nnose "
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End now"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="05"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/atardecer"
+        android:scaleType="centerInside">
+
+    </ImageView>
+</FrameLayout>

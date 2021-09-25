@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantalla7">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/guayabitos"></ImageView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="418dp"
+        android:layout_below="@+id/foto"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-231dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="11dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center|left"
+            android:text="Rincon de Guayabitos"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:text="Visitar Rincón de Guayabitos es regresar a casa con un equipaje lleno de coloridos recuerdos. Tal vez sea por eso, y por lo sereno de su mar, que es uno de los destinos más visitados de la Riviera Nayarit"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="253dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/textView4"
+                android:layout_width="34dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/calendar2"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/textView3"
+                android:layout_width="34dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/calendar3"
+                android:textColor="#F3EFEF"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
