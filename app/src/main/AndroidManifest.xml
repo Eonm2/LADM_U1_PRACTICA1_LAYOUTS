@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".pantalla2"
+            android:exported="true" />
+        <activity
             android:name=".pantalla8"
             android:exported="true" />
         <activity
