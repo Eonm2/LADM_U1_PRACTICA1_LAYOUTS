@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#C1131212"
-    tools:context=".pantalla2">
+    tools:context=".pantalla3">
 
     <ImageView
         android:layout_width="20sp"
